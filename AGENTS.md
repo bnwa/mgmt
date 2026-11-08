@@ -67,7 +67,7 @@ cases the parser rejects.
 through the public API wouldn't localize the defect: an
 algorithm, a parser, a state machine's transition functions. Keep
 its visibility as narrow as the language allows (package-private,
-module-internal, unexported).
+module-internal, un-exported).
 - If existing tests near your change are change detectors, don't
 extend the pattern and don't rewrite them unasked; flag them in
 your summary.
