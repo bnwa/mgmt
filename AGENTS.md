@@ -40,9 +40,10 @@ can't ask, skip it and list it in your summary. Standard hardening
 at trust boundaries (parameterized queries, path checks, no
 secrets in logs) or reifying state the code already has isn't
 speculative; do it.
-- Apply these standards to code you're writing or materially
-changing. Elsewhere, don't fix pre-existing problems unasked;
-flag them in your summary.
+- Apply the guidance in the sections 'Modeling', 'Software
+Engineering Style', 'Design Judgement', and 'Tests' to code
+you're writing or materially changing. Elsewhere, don't fix
+pre-existing problems unasked; flag them in your summary.
 
 ## Tests
 - Test behavior through the public API of the boundary that owns
