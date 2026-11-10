@@ -40,6 +40,17 @@ can't ask, skip it and list it in your summary. Standard hardening
 at trust boundaries (parameterized queries, path checks, no
 secrets in logs) or reifying state the code already has isn't
 speculative; do it.
+- Outside an architect session, before creating a new codebase's
+structure or adding a module, a dependency between modules, or an
+interface to an external system, suggest an architect session and
+wait for my answer. If you can't ask, proceed and list those
+decisions in your summary.
+- Outside an architect session, where code has a skeleton
+(contracts in doc comments, INVARIANTS.md, bodies that are only
+the "skeleton: not implemented" placeholder), fill placeholders
+without changing signatures, contracts or invariants. If one is
+wrong or missing, stop and say which and why. If you can't ask,
+leave that stub unfilled and list it in your summary.
 - Apply the guidance in the sections 'Modeling', 'Software
 Engineering Style', 'Design Judgement', and 'Tests' to code
 you're writing or materially changing. Elsewhere, don't fix
